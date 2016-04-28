@@ -6,7 +6,7 @@ Author:  Tina Yan
 Description: 
 -------------------------------------------------
 
-This is a light-weighted test automation framework. It contains both test harness and example test cases. With this test harness, you are able to develop your test cases with any flexible style, and don't need to worry about how to execute them and how to validate test results.
+This is a light-weighted test automation framework written in Ruby. It contains both test harness and example test cases. The test harness provides test execution, result validation and build-in pre-setup and tear-down functionalities.  With this test harness, you are able to develop your test cases with any flexible style, and don't need to worry about how to execute them and how to validate test results.
 
 Files Explanation:
 -------------------------------------------------
