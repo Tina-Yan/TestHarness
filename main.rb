@@ -72,7 +72,7 @@ end
 
 cur_dir         = File.expand_path( File.dirname( __FILE__ ))
 
-require cur_dir + '/../test_harness/test_harness.rb'  ## require the test_harness
+require cur_dir + '/test_harness/test_harness.rb'  ## require the test_harness
 config_file = cur_dir   + "/config.rb"
 log_file = cur_dir + "/main.log"
 
