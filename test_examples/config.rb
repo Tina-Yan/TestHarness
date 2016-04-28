@@ -22,7 +22,7 @@ cfg = {
                      'expect_result'      => 'expect_result.json' ##This is the expected result for regression testset. It defined cases and its returned expected value
         },
         "int" => { # integration
-                     'test_host'          => 'api.int.dpccloud.com',
+                     'test_host'          => '10.10.10.2',
                      'build_id'           => "service:0.0.3",
                      'expect_result'      => 'expect_result_int.json' ##This is the expected result for integration testset. It defined cases and its returned expected value
         },
