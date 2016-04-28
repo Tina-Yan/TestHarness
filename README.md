@@ -11,17 +11,19 @@ This is a light-weighted test automation framework written in Ruby. It contains 
 Files Explanation:
 -------------------------------------------------
 
-1, test_harness.rb: This is the light-weighted test automation framework. It provides test execution, result validation and build-in pre-setup and tear-down functionalities.
+1, /test_harness/test_harness.rb: This is the light-weighted test automation framework. It provides test execution, result validation and build-in pre-setup and tear-down functionalities.
 
-2, common_lib.rb: This is common function library which contains all functions shared by test suites.
+2, /test_examples/common_lib.rb: This is common function library which contains all functions shared by test suites.
 
-3, test_suite_1.rb, test_suite_2.rb: These two files are example test suites for you test. They defined some simple test cases need to be execute. Apart from those assistant methods: pre_setup, tear_down and \<testset\>_test methods, each public method in test suite class is a test case. \<testset\> could be smoke, regression or integration.
+3, /test_examples/test_suite_1.rb, test_suite_2.rb: These two files are example test suites for you test. They defined some simple test cases need to be execute. Apart from those assistant methods: pre_setup, tear_down and \<testset\>_test methods, each public method in test suite class is a test case. \<testset\> could be smoke, regression or integration.
 
-4, config.rb: This file defines the parameters for different test set (smoke/regression/integration)
+4, /test_examples/config.rb: This file defines the parameters for different test set (smoke/regression/integration)
 
-5, main.rb:  This is the entry to run your test cases. You could run 'ruby main.rb' with defined options.
+5, /test_examples/main.rb:  This is the entry to run your test cases. You could run 'ruby main.rb' with defined options.
 
-6, expect_result.json, expect_result_smk.json, expect_result_int.json. These three files contains all expected result for your test cases. They are mapping to 3 different test set: regression, smoke or integration.
+6, /test_examples/expect_result.json, expect_result_smk.json, expect_result_int.json. These three files contains all expected result for your test cases. They are mapping to 3 different test set: regression, smoke or integration.
+
+7,/documentation/Light-weighted Test Harness introduction.pptx: The introduction ppt.
 
 Output:
 ---------------------------------------------------
