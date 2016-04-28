@@ -14,7 +14,7 @@
 ##                        Add the option to run specified cases by defining cases index with '--run' flag
 ## Examples:
 ##    ruby main.rb --help
-##    ruby main.rb --testset intergation --run 1,2,3
+##    ruby main.rb --testset integration --run 1,2,3
 ##    ruby main.rb --run 1-7
 ##
 ################################################################################
@@ -260,7 +260,8 @@ class TestHarness
            -r, --run                     an array of indexes of test cases, which will be executed
 
 Examples:
-           ruby main.rb --testset intergation --run 1,2,3
+           ruby main.rb --help
+           ruby main.rb --testset integration --run 1,2,3
            ruby main.rb --run 1-7
 "
           puts help
