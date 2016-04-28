@@ -1,0 +1,7 @@
+{"ord":1,"pre_setup_suite":"lala"}
+{"idx":1,"case_001":{"test_value":"002","test_array":[1,2]}}
+{"idx":2,"case_002":"002"}
+{"ord":2,"tear_down_suite":"deleted!"}
+{"ord":3,"pre_setup_case":"pre_setup_for_case"}
+{"idx":3,"case_aaaa":4}
+{"ord":4,"tear_down_case":"tear_down_for_case"}
