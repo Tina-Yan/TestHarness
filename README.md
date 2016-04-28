@@ -33,11 +33,15 @@ After main.rb is executed, 2 files will be generated.
 Help:
 ---------------------------------------------------
 Options:
+
            -h, --help                    show help  
            -t, --testset                 smoke (default), regression or integration
            -r, --run                     an array of indexes of test cases, which will be executed
 
 Examples:
+
            ruby main.rb --help
+           
            ruby main.rb --testset integration --run 1,2,3
+           
            ruby main.rb --run 1-7
