@@ -6,7 +6,7 @@ Author:  Tina Yan
 Description: 
 -------------------------------------------------
 
-This is a light-weighted test automation framework. It contains both test harness and example test cases.
+This is a light-weighted test automation framework. It contains both test harness and example test cases. With this test harness, you are able to develop your test cases with any flexible style, and don't need to worry about how to execute them and how to validate test results.
 
 Files Explanation:
 -------------------------------------------------
@@ -15,11 +15,11 @@ Files Explanation:
 
 2, common_lib.rb: This is common function library which contains all functions shared by test suites.
 
-3, test_suite_1.rb, test_suite_2.rb: These two files are example test suites for you test. They defined some simple test cases need to be execute. Each public method in test suite class is an test case except those assistant methods: pre_setup, tear_down and <testset>_test methods. <testset> could be smoke, regression or integration
+3, test_suite_1.rb, test_suite_2.rb: These two files are example test suites for you test. They defined some simple test cases need to be execute. Apart from those assistant methods: pre_setup, tear_down and \<testset\>_test methods, each public method in test suite class is a test case. \<testset\> could be smoke, regression or integration.
 
-4, config.rb: This file defined the parameters for different test set (smoke/regression/integration)
+4, config.rb: This file defines the parameters for different test set (smoke/regression/integration)
 
-5, main.rb:  This is the entry to run your test cases. You could run 'ruby main.rb' with defined options to execute your test cases.
+5, main.rb:  This is the entry to run your test cases. You could run 'ruby main.rb' with defined options.
 
 6, expect_result.json, expect_result_smk.json, expect_result_int.json. These three files contains all expected result for your test cases. They are mapping to 3 different test set: regression, smoke or integration.
 
