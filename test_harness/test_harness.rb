@@ -186,7 +186,7 @@ class TestHarness
     fp.close
     @log.info "************************************************************"
     puts "************************************************************"
-    @log.info "cases: #{run_cases_idx} "; puts "cases: #{run_cases_idx} were executed" if run_cases_idx!=[]
+    @log.info "cases: #{run_cases_idx} were executed"; puts "cases: #{run_cases_idx} were executed" if run_cases_idx!=[]
   end
 
   #######################################################################################
