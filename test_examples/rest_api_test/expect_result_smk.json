@@ -1,3 +1,3 @@
 {"ord":1,"pre_setup_suite":true}
-{"idx":1,"rest_get":"{\"args\":{},\"headers\":{\"Accept\":\"*/*\",\"Cached-Control\":\"no-cache\",\"Content-Type\":\"application/x-www-form-urlencoded\",\"Host\":\"httpbin.org\",\"User-Agent\":\"Ruby\"},\"origin\":\"137.69.117.204\",\"url\":\"https://httpbin.org/get\"}"}
+{"idx":1,"rest_get":"{\"args\":{},\"headers\":{\"Accept\":\"*/*\",\"Cached-Control\":\"no-cache\",\"Content-Type\":\"application/x-www-form-urlencoded\",\"Host\":\"httpbin.org\",\"User-Agent\":\"Ruby\"},\"origin\":\"180.157.140.28\",\"url\":\"https://httpbin.org/get\"}"}
 {"ord":2,"tear_down_suite":"deleted!"}

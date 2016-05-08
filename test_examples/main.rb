@@ -70,11 +70,11 @@ end
 
 ## Main logic to run your test cases
 
-cur_dir         = File.expand_path( File.dirname( __FILE__ ))
+@@cur_dir         = File.expand_path( File.dirname( __FILE__ ))
 
-require cur_dir + '/../test_harness/test_harness.rb'  ## require the test_harness
-config_file = cur_dir   + "/config.rb"
-log_file = cur_dir + "/main.log"
+require @@cur_dir + '/../test_harness/test_harness.rb'  ## require the test_harness
+config_file = @@cur_dir   + "/config.rb"
+log_file = @@cur_dir + "/main.log"
 
 ## Initialization
 test_exe = TestHarness.new(config_file,log_file)
@@ -91,7 +91,7 @@ exit if help_flag
 
 ## Include all test suites defined in config.rb file
 @cfg['test_suites'].each do |test_suite|
-  require cur_dir + "/" + test_suite
+  require @@cur_dir + "/" + test_suite
 end
 ###################################################
 ## Usually you don't need to change code above
@@ -106,4 +106,4 @@ test_suite_2 = SuiteTwoClass.new(@cfg_env,@log)
 test_exe.run_test(test_suite_2,testset )
 
 ## Validate your results
-test_exe.validate_results("actual_result.json",@cfg_env['expect_result'])
+test_exe.validate_results("actual_result.json","#{@@cur_dir}/#{@cfg_env['expect_result']}")

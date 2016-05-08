@@ -1,6 +1,8 @@
 # TestHarness
 
-Author:  Tina Yan
+Author:
+
+Tina Yan
 -------------------------------------------------
 
 Description: 

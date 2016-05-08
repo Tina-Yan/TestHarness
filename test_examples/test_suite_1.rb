@@ -4,7 +4,7 @@
 ##            <testset> could be smoke/regression/integration. It defines different cases array for different test set
 ################################################################################
 
-require "./common_lib.rb"  ##This is common libraries you want to share among test suites.
+require @@cur_dir + "/common_lib.rb"  ##This is common libraries you want to share among test suites.
 
 class SuiteOneClass
   include CommonLib
